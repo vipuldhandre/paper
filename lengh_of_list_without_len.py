@@ -30,7 +30,7 @@
 import array as arr
 
 def array_length(x):
-    return sum(1 for char in x)
+    return sum(1 for i in x)
 
 a = arr.array('i',[10,300,20,40,200,1000,20])
 print(array_length(a))
